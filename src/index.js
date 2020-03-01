@@ -36,5 +36,5 @@ exports.avg = function avg (array) {
       avg += array[i];
     }
   }
-  return avg;
+  return avg/array.length;
 }

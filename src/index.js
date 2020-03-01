@@ -1,6 +1,6 @@
 
 exports.min = function min (array) {
-  if (array == undefined || array.length == 0) {
+  if (array === undefined || array.length === 0) {
   return 0;
 } else {
   let min = array[0];
@@ -14,7 +14,7 @@ return min;
 }
 
 exports.max = function max (array) {
-  if (array == undefined || array.length == 0) {
+  if (array === undefined || array.length === 0) {
     return 0;
   } else {
     let max = array[0];
@@ -28,7 +28,7 @@ exports.max = function max (array) {
 }
 
 exports.avg = function avg (array) {
-  if (array == undefined || array.length == 0) {
+  if (array === undefined || array.length === 0) {
     return 0;
   } else {
     let avg = 0;
